@@ -2,7 +2,7 @@
 	session_start();
 	include 'header.php';
 	if(isset($_SESSION['user_data'])){
-		header("location: http://localhost/blogWeb/admin/index.php");
+		header("location: http://localhost/MyDailyBlog/admin/index.php");
 	}
 ?>
 
