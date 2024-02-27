@@ -99,7 +99,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 INSERT INTO `user` (`user_id`, `username`, `email`, `password`, `role`) VALUES
 (3, 'Reshi', 'admin@gmail.com', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 1),
-(4, 'Reshi kash', 'moderator @gmail.com', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 0);
+(4, 'Reshi kash', 'moderator@gmail.com', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 0);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
